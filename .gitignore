@@ -1,0 +1,20 @@
+# Ignore the Virtual Environment folder
+venv/
+env/
+.conda/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore the heavy AI models
+*.bin
+*.pt
+
+# Ignore our temporary audio files
+*.wav
+temp.wav
+temp_command.wav
+
+# Ignore VS Code settings
+.vscode/
