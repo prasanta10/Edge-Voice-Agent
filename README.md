@@ -8,6 +8,8 @@ An **offline, privacy-preserving Voice User Interface (VUI)** that processes spe
 
 Unlike cloud-based assistants (Alexa/Siri), this project demonstrates an **Edge AI architecture**, utilizing **OpenAI Whisper** for speech recognition and **Meta's Llama 3.2** for general intelligence, decoupled from the internet. It features a reactive GUI that visualizes agent states (Sleeping, Listening, Thinking) in real-time.
 
+
+
 ---
 
 ## 📸 Interface Demo
@@ -26,8 +28,11 @@ Unlike cloud-based assistants (Alexa/Siri), this project demonstrates an **Edge 
 
 ## 🏗️ System Architecture
 
-The system follows a standard **Wake-Listen-Think-Act** pipeline optimized for consumer hardware:
+The system follows a standard **Wake-Listen-Think-Act** pipeline optimized for consumer hardware.
 
+![System Flowchart](flowchart.png)
+
+### Data Flow Breakdown:
 1.  **Input Stage:** `SpeechRecognition` library monitors audio stream for the Wake Word ("Jarvis").
 2.  **ASR Stage:** `OpenAI Whisper (Base)` model converts audio tensor to text.
 3.  **Router:**
