@@ -13,7 +13,7 @@ Unlike cloud-based assistants (Alexa/Siri), this project demonstrates an **Edge 
 ---
 
 ## 📸 Project Demo
-[![Watch the Demo](sleep.png)](https://youtu.be/WNcnS0Yb1pk)
+[![Watch the Demo](sleepYToverlay.png)](https://youtu.be/WNcnS0Yb1pk)
 
 ## 🚀 Key Features
 
