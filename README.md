@@ -10,8 +10,8 @@ Unlike cloud-based assistants (Alexa/Siri), this project demonstrates an **Edge 
 
 ---
 
-## 📸 Interface Demo
-*(Place a screenshot or GIF of your robot GUI here)*
+## 📸 Project Demo
+[![Watch the Demo](sleep.png)](https://youtu.be/WNcnS0Yb1pk)
 
 ## 🚀 Key Features
 
